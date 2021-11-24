@@ -1,0 +1,162 @@
+/* screen - page3 */
+
+.page3 {
+  background-color: #ffffff;
+  height: 1024px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+
+.page3 .main-video2-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/mainvideo@1x.png);
+  background-size: 100% 100%;
+  height: 1182px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: -52px;
+  width: 1347px;
+}
+
+.page3 .back-button2-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(../img/backbutton2@1x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 1024px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1280px;
+}
+/* screen - index */
+
+.index {
+  background-color: #ffffff;
+  height: 1024px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+
+.index .main-background-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/background@1x.png);
+  background-size: 100% 100%;
+  height: 1024px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1280px;
+}
+
+.index .image2rotate-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(../img/image2rotate@2x.png);
+  background-size: 100% 100%;
+  height: 146px;
+  left: 567px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 328px;
+  width: 146px;
+  animation: rotation 10s infinite linear;
+}
+
+.index .video2-button-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  cursor: pointer;
+  height: 218px;
+  left: 391px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 577px;
+  width: 239px;
+}
+
+.index .video1-button-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  cursor: pointer;
+  height: 218px;
+  left: 127px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 577px;
+  width: 239px;
+}
+/* screen - page2 */
+
+.page2 {
+  background-color: #ffffff;
+  height: 1024px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+
+.page2 .main-video1-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/mainvideo@1x.png);
+  background-size: 100% 100%;
+  height: 1182px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: -52px;
+  width: 1347px;
+}
+
+.page2 .back-button1-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(../img/backbutton2@1x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 1024px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1280px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
